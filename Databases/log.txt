@@ -2,3 +2,8 @@
 2,"User added prescription",0,Sat Dec 16 23:23:49 2023
 3,"Doctor logged in",1,Sat Dec 16 23:24:43 2023
 4,"Doctor logged in",1,Sat Dec 16 23:25:40 2023
+5,"Doctor logged in",1,Thu Dec 21 10:11:09 2023
+6,"Doctor logged in",1,Thu Dec 21 10:11:35 2023
+7,"Doctor logged in",2,Thu Dec 21 10:15:20 2023
+8,"User added new patient to file",2,Thu Dec 21 10:15:42 2023
+9,"Doctor logged in",2,Thu Dec 21 10:16:14 2023

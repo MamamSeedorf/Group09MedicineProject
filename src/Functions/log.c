@@ -5,7 +5,7 @@
 
 void logFunction(LogEntry user){
 
-
+user.userID=2;
     //Finds current date
     time_t currentTime;
     time(&currentTime);

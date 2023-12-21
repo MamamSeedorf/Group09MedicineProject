@@ -31,7 +31,6 @@ int startLoginFunction() {
             printf("Welcome Doctor %s\n", doctorLogins->username);
             doctorFound = 1;
             LogEntry userID;
-            userID.userID=doctorLogins->id;
             strncpy(userID.description,"Doctor logged in",MAX_NAME);
             logFunction(userID);
             break;
@@ -48,7 +47,6 @@ int startLoginFunction() {
             printf("Welcome Nurse %s\n", nurseLogins->username);
             LogEntry userID;
             strncpy(userID.description,"Nurse logged in",MAX_NAME);
-            userID.userID=nurseLogins->id;
             logFunction(userID);
             nurseFound = 1;
             break;

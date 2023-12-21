@@ -175,7 +175,6 @@ void editPatient(){
         perror("THE FILE DID NOT OPEN");
         EXIT_FAILURE;
     }
-    char line[MAX_LINE_LENGTH];
     Patient *allPatients = (Patient *)malloc(MAX_PATIENT_NAME * sizeof(Patient));
     int count = populatePatientArray(readFile, allPatients);
     for (int i = 0; i < count; ++i) {
@@ -185,6 +184,5 @@ void editPatient(){
     }
     fclose(readFile);
     rewritePatientFile(allPatients, count);
-    printf("The patient has been edited\n");
-
+    printf("The data has been updated\n");
 }
