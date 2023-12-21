@@ -2,7 +2,7 @@
 
 Welcome to the P1MedicineProject. This repository contains all the necessary files for our project. You can find the source code to the project:
 
-**Repository:** [Group09MedicineProject on GitHub](https://github.com/MamamSeedorf/Group09P1MedicineProject)
+**Repository:** [Group09MedicineProject on GitHub](https://github.com/MamamSeedorf/Group09MedicineProject)
 ### Cloning the Repository
 
 To clone the repository follow these steps:
